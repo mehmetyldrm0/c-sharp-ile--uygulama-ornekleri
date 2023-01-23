@@ -23,7 +23,7 @@ namespace ConsoleApp2
 
             do
             {
-                Console.Write("TAHMİNİZ : ");
+                Console.Write("TAHMİNİNİZ : ");
                 guess = int.Parse(Console.ReadLine());
 
                 if (guess < number)
