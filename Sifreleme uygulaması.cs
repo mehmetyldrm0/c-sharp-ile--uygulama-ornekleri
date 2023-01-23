@@ -1,6 +1,8 @@
-﻿using System;
+using System;
 using System.Linq;
 
+// girilen bir metnin herbir harfine sırasıyla fibonacci rakamı ekleyen ve bu rakamlarla yeni bir metin şifresi oluşturan
+// ve daha sonrasında bu sifreyi çözüp eski haline getiren uygulamayı metodlar yazarak geliştrin
 namespace ConsoleApp2
 { class App
     {
