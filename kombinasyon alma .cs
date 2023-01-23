@@ -1,4 +1,14 @@
-﻿using System;
+
+            /* UYGULAMA SORULARI ÖRNEK8;
+              
+               BİLGİSAYARIN TUTTUĞU SAYIYI TAHMİN ETTİĞİMİZ BİR UYGULAMA GELİŞTİRİLİM 
+               BİLGİSAYAR 0-100 ARASI BİR SAYI TUTSUN. GİRİLEN TAHMİN RAKAIMINA GÖRE "DAHA BÜYÜK BİR SAYI GİRİNİZ "
+               YADA "DAHA KÜÇÜK BİR SAYI GİRİNİZ " DİYEREK YÖNLENDİRME YAPARAK GERÇEK SAYIYI BULMAMIZI SAĞLASIN
+               VE SONUCU DOĞRU BULDUĞUMUZDA KAÇ DENENEDEN SONRA DOĞRU BULĞUMUZADA GÖSTEREN UYGULAMAYI GELİŞTİRİN
+           
+             */
+
+using System;
 using System.Linq;
 
 namespace ConsoleApp2
@@ -6,14 +16,6 @@ namespace ConsoleApp2
     {
         public static void Main()
         {
-            /* UYGULAMA SORULARI ÖRNEK8;
-              
-            BİLGİSAYARIN TUTTUĞU SAYIYI TAHMİN ETTİĞİMİZ BİR UYGULAMA GELİŞTİRİLİM 
-               BİLGİSAYAR 0-100 ARASI BİR SAYI TUTSUN. GİRİLEN TAHMİN RAKAIMINA GÖRE "DAHA BÜYÜK BİR SAYI GİRİNİZ "
-               YADA "DAHA KÜÇÜK BİR SAYI GİRİNİZ " DİYEREK YÖNLENDİRME YAPARAK GERÇEK SAYIYI BULMAMIZI SAĞLASIN
-               VE SONUCU DOĞRU BULDUĞUMUZDA KAÇ DENENEDEN SONRA DOĞRU BULĞUMUZADA GÖSTEREN UYGULAMAYI GELİŞTİRİN
-           
-             */
 
 
             int number = new Random().Next(0, 100);
